@@ -1,0 +1,23 @@
+# Tutaj mozna ustawic prefix pluginu:
+prefix: "&3&lxKenUnknownCMD"
+
+# Tutaj mozna ustawic wiadomosc jesli nie odnaleziono danej komendy:
+not_find_command: "&8>> &cNie odnaleziono takiej komendy!"
+
+# Tutaj mozna wlaczyc opcje blokowania komend:
+cancel_commands: true
+
+# Tutaj mozna wypisac komendy ktore maja byc zablokowane na serwerze:
+cancel_commands_list:
+  commands:
+    - 'plugins'
+    - 'pl'
+    - 'ver'
+    - 'version'
+    - 'calc'
+
+# Tutaj mozna ustawic wiadomosc jesli dana komenda jest zablokowana i gracz do niej nie ma dostepu:
+cancel_commands_message: "&8>> &cNie masz dostepu do tej komendy!"
+
+# Czy maja sie wysylac informacje o pluginie?:
+plugin_info: true
